@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yang/workspace/test8/main.cpp
+opencv2/opencv.hpp
+/home/yang/workspace/test8/opencv2/opencv.hpp
+iostream
+-
+stdio.h
+-
+string.h
+-
+malloc.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+unistd.h
+-
+termios.h
+-
+math.h
+/home/yang/workspace/test8/math.h
+errno.h
+-
+sys/ioctl.h
+-
+linux/videodev2.h
+-
+
